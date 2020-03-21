@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "frage": "Frage 1",
+        "optionen": {
+            "eins": {
+                "target": 5,
+                "option": "blubblub"
+            },
+            "zwei": {
+                "target": 4,
+                "option": "blubblub"
+            },
+            "drei": {
+                "target": 3,
+                "option": "blubblub"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "frage": "Frage zwei",
+        "optionen": {
+            "eins": {
+                "target": 5,
+                "option": "blubblub"
+            },
+            "zwei": {
+                "target": 4,
+                "option": "blubblub"
+            },
+            "drei": {
+                "target": 3,
+                "option": "blubblub"
+            }
+        }
+    }
+
+]
