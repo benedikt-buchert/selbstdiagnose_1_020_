@@ -1,39 +1,90 @@
-[
+  [
     {
-        "id": 1,
-        "frage": "Frage 1",
-        "optionen": {
-            "eins": {
-                "target": 5,
-                "option": "blubblub"
-            },
-            "zwei": {
-                "target": 4,
-                "option": "blubblub"
-            },
-            "drei": {
-                "target": 3,
-                "option": "blubblub"
-            }
+      "id": 0,
+      "question": "Leidest Du unter Atemproblemen wie z.B. Kurzatmigkeit?",
+      "options": [
+        {
+          "target": 1,
+          "text": "ja"
+        },
+        {
+          "target": 2,
+          "text": "nein"
         }
+      ]
     },
     {
-        "id": 2,
-        "frage": "Frage zwei",
-        "optionen": {
-            "eins": {
-                "target": 5,
-                "option": "blubblub"
-            },
-            "zwei": {
-                "target": 4,
-                "option": "blubblub"
-            },
-            "drei": {
-                "target": 3,
-                "option": "blubblub"
-            }
+      "id": 1,
+      "question": "Warst du in den letzten 14 Tagen in einem internationalen Risikogebiet? Ägypten: ganzes Land, China: Provinz Hubei (inkl. Stadt Wuhan), Frankreich: Region Grand Est (diese Region enthält Elsass, Lothringen und Champagne-Ardenne) Iran: ganzes LandItalien: ganzes Land, Österreich: Bundesland Tirol, Spanien: Madrid, Südkorea: Provinz Gyeongsangbuk-do (Nord-Gyeongsang), USA: Bundesstaaten Kalifornien, Washington und New York",
+      "options": [
+        {
+          "target": 9,
+          "text": "ja"
+        },
+        {
+          "target": 4,
+          "text": "nein"
         }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Hast du Husten, Fieber, oder Schnupfen?",
+      "options": [
+        {
+          "target": 5,
+          "text": "ja"
+        },
+        {
+          "target": 11,
+          "text": "nein"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Hast Du Dich in den letzten 14 Tagen in einem Gebiet mit vielen COVID-19 Fällen innerhalb Deutschlands, vor allem im Kreis Heinsberg (NRW), aufgehalten? (vgl. RKI-Karte nach Landkreisen https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4/page/page_1/ )",
+      "options": [
+        {
+          "target": 5,
+          "text": "ja"
+        },
+        {
+          "target": 11,
+          "text": "nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Hattest Du in den letzten zwei Wochen Kontakt zu einem nachgewiesenen COVID-19 Fall?",
+      "options": [
+        {
+          "target": 9,
+          "text": "ja"
+        },
+        {
+          "target": 11,
+          "text": "nein"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Bei Dir liegt aufgrund des Risikogebiets and Deiner Symptome ein begründeter Verdachtsfall vor. Aber keine Panik! Rufe Dein nächstgelegenes Krankenhaus an und beschreibe Deine Symptome. Warte auf weitere Anweisungen und vermeide Kontakt mit anderen Menschen.",
+      "options": [
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Es besteht bei Dir die Möglichkeit zu einem Corona-Fall. Bei Dir liegen unspezifische Symptome vor, die nicht direkt auf eine Corona-Infektion schließen lassen. Das Virus kann aber sehr unterschiedliche Ausprägungen annehmen, deshalb ist es wichtig Deine Symptome weiter mit einem Arzt ambulant abzuklären. Rufe unbedingt deinen Hausarzt an und mache einen Termin. Er wird Dir weiterhelfen. Falls Dein Hausarzt nicht erreichbar ist, gibt es einige schnelle Möglichkeiten zur Telemedizin. Sieh dir doch mal die folgenden Links an: TODO links von anderer Gruppe mit Telemedizin Vermeide Kontakt zu anderen Personen und begib dich vorsichtshalber in 14-tägige Selbstquarantäne",
+      "options": [
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Du hast sehr unspezifische Symptome, die eine Erkältung oder eine andere Erkrankung sein können. Ein begründeter Verdachtsfall liegt nicht vor. Dennoch kann eine Infektion nicht ausgeschlossen werden.",
+      "options": [
+      ]
     }
-
-]
+  ]
