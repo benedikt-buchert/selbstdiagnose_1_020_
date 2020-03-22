@@ -3,7 +3,7 @@
       "id": 0,
       "question": "Leidest Du unter Atemproblemen wie z.B. Kurzatmigkeit?",
       "body": "",
-      "progress": 0,
+      "progress": 0.1,
       "options": [
         {
           "target": 1,
@@ -54,7 +54,7 @@
       "progress": 0.66,
       "options": [
         {
-          "target": 5,
+          "target": 10,
           "text": "ja"
         },
         {
