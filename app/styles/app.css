@@ -114,15 +114,16 @@ body{
 
 main{
   padding-bottom: 2.5rem;
+  min-height:70vh;
 }
 
 .c-footer-menu {
-    display: inline-block;
+    display: flex;
     width: 100%;
     justify-content: space-evenly;
     border-top: darkgrey;
     padding: 0 3rem;
-    position:absolute;
+    position:relative;
     bottom:0;
     height:2.5rem;
 }
