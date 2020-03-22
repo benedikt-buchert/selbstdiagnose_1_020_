@@ -44,7 +44,8 @@
     },
     {
       "id": 4,
-      "question": "Hast Du Dich in den letzten 14 Tagen in einem Gebiet mit vielen COVID-19 Fällen innerhalb Deutschlands, vor allem im Kreis Heinsberg (NRW), aufgehalten? (vgl. RKI-Karte nach Landkreisen https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4/page/page_1/ )",
+      "question": "Hast Du Dich in den letzten 14 Tagen in einem Gebiet mit vielen COVID-19 Fällen innerhalb Deutschlands, vor allem im Kreis Heinsberg (NRW), aufgehalten?",
+      "body": "(vgl. RKI-Karte nach <a href=\"https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4/page/page_1/\">Landkreisen</a>",
       "options": [
         {
           "target": 5,
