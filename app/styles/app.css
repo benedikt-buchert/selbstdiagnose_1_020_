@@ -57,7 +57,7 @@
     font-weight: var(--light);
 }
 
-h2,h3 {
+h2,h3,h4 {
   text-align: center;
   font-weight: var(--light);
 }
@@ -70,13 +70,13 @@ h2,h3 {
     text-align: center;
 }
 
-.c-question, p, ol{
+.c-question, p, ol,ul{
   text-align:center;
   font-weight: var(--light);
   line-height: 1.4rem;
 }
 
-ol{
+ol,ul{
     text-align: left;
 }
 
