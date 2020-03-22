@@ -2,6 +2,7 @@
     {
       "id": 0,
       "question": "Leidest Du unter Atemproblemen wie z.B. Kurzatmigkeit?",
+      "body": "",
       "progress": 0,
       "options": [
         {
@@ -33,6 +34,7 @@
     {
       "id": 2,
       "question": "Hast du Husten, Fieber, oder Schnupfen?",
+      "body": "",
       "progress": 0.33,
       "options": [
         {
@@ -64,6 +66,7 @@
     {
       "id": 5,
       "question": "Hattest Du in den letzten zwei Wochen Kontakt zu einem nachgewiesenen COVID-19 Fall?",
+      "body": "",
       "progress": 0.66,
       "options": [
         {
