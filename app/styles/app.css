@@ -8,13 +8,13 @@
     --font-size: 1rem;
     --font-size-big: 1.25rem;
     --spacing-margin-padding : 0.75rem;
+    --space: 1.5rem;
     color: var(--dark-font-color);
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--light-grey);
 }
 
 .stack {
-    --space: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -49,12 +49,16 @@
     text-align: center;
 }
 
+.c-question {
+    margin-bottom: var(--space);
+}
+
 .c-button {
     background-color: var(--theme-color);
     color: var(--light-font-color);
     text-align: center;
     border: none;
-    padding: var(--spacing-margin-padding);
+    padding: 0.75rem;
     margin-right: var(--spacing-margin-padding);
     font-size: var(--font-size-big);
 }
