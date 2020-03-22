@@ -1,4 +1,5 @@
-{{ember-progress-bar setProgress=@frage.progress}}
+{{ember-progress-bar setProgress=@frage.progress options=(hash color="#00d3db")}}
+{{ember-progress-bar setProgress=1 options=(hash color="#aaaaaa")}}
 <article class="c-question">
     <h1>{{@frage.question}}</h1>
     {{@frage.body}}
