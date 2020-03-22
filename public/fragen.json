@@ -82,6 +82,10 @@
       "body": "Aber keine Panik! Rufe Dein nächstgelegenes Krankenhaus an und beschreibe Deine Symptome. Warte auf weitere Anweisungen und vermeide Kontakt mit anderen Menschen.",
       "progress": 1,
       "options": [
+        {
+          "target": 0,
+          "text": "von vorne beginnen"
+        }
       ]
     },
     {
