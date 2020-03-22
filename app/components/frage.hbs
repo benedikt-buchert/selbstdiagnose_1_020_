@@ -3,11 +3,6 @@
     {{@frage.body}}
 </article>
 <div class ="buttons">
-{{#each @frage.options as |option|}}
-
-<LinkTo @route="fragen" @model={{option.target}} class="c-button" > {{option.text}} </LinkTo>
-
-{{/each}}
 
 {{#if (eq @frage.id 9)}}
   <h3>Begründeter Verdacht</h3>
@@ -24,6 +19,13 @@
     <img src="links_allgemeine_infos.png" width="300"/>
   {{/if}}
 
+  {{#each @frage.options as |option|}}
+
+    <LinkTo @route="fragen" @model={{option.target}} class="c-button" > {{option.text}} </LinkTo>
+
+  {{/each}}
 
 </div>
-{{yield}}
+
+
+
