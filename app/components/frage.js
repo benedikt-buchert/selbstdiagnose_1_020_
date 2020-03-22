@@ -5,7 +5,4 @@ export default Component.extend({
     get body() {
         return htmlSafe(this.frage.body);
     }
-
-
-
 });

@@ -2,7 +2,7 @@
 {{ember-progress-bar setProgress=1 options=(hash color="#aaaaaa")}}
 <article class="c-question">
     <h1>{{@frage.question}}</h1>
-    {{@frage.body}}
+    {{this.body}}
 </article>
 <div class ="buttons">
 
@@ -11,7 +11,7 @@
 {{/if}}
 
   {{#if (eq @frage.id 10)}}
-    <img src="teleclinic.png" width="100%"/>
+    <img src="teleclinic.png" alt="" width="100%"/>
   {{/if}}
 
   {{#if (eq @frage.id 11)}}
