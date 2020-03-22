@@ -152,6 +152,10 @@ a {
   text-decoration:none;
 }
 
+p a {
+  color: var(--theme-color);
+}
+
 .c-header a, .c-footer-menu a {
   color: var(--dark-font-color);
 }
