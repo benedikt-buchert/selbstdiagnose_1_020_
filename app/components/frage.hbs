@@ -1,6 +1,6 @@
 <article class="c-question">
     <h1>{{@frage.question}}</h1>
-    {{{@frage.body}}}
+    {{this.body}}
 </article>
 
 {{#each @frage.options as |option|}}
@@ -8,3 +8,4 @@
 {{/each}}
 
 {{yield}}
+
