@@ -1,17 +1,64 @@
 <h1 class="c-h1">Herzlich Willkommen</h1>
 <div class ="welcome">
 <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  Diese Anwendung ist im Rahmen des Hackathons 2020 entstanden und ist eine Anwendung für Menschen mit Corona Verdacht, die Ihnen eine erste Einschätzung Ihres individuellen Risikos vermittelt und über weitere Schritte berät.
+
+<ul style="text-align:left">
+<li>Hilfestellungen und Entscheidungshilfen</li>
+<li>Entlastung der aktuellen Infrastruktur in Krankenhäusern, bei Ärzten/Ärztinnen oder Teststellen</li>
+<li>Rückrufservice und Videochats von und mit Fachpersonal</li>
+<li>Teststationen und medizinische Versorgung in Ihrer Nähe</li>
+</ul>
+
 </p>
+
+<p>Du kannst hier entweder den Fragebogen als Formular ausfüllen oder mit Ronni, unserem Corona Chatbot direkt über deine symptome reden.</p>
+<br>
+
+<div class="buttons">
+<LinkTo @route="fragen" @model="0" class="c-button" >Fragebogen</LinkTo>
+<LinkTo @route="chatbot" class="c-button" >Chatbot</LinkTo>
+</div>
+
+<br>
 
 <h2>Wichtig</h2>
 
 <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  Bei unserer Anwendung handelt es sich nicht um eine Anwendung, die diagnostische Leistungen erbringt. Unsere Anwendung dient der Entlastung der aktuellen Infrastruktur in Krankenhäusern, Arztpraxen und Teststellen.
 </p>
-<p>Du kannst hier entweder den Fragebogen als Formular ausfüllen oder mit Ronni, unserem Corona Chatbot direkt über deine symptome reden.</p>
-</div>
-<div class="buttons">
-<LinkTo @route="fragen" @model="0" class="c-button" >Fragebogen</LinkTo>
-<LinkTo @route="chatbot" class="c-button" >Chatbot</LinkTo>
+
+<h2>Nutzungshinweise:</h2>
+
+<ol>
+<li>Start des Fragebogens/Chatbots
+
+Sie haben die Möglichkeit sich durch den Fragebogen zu navigieren oder den Chatbot zu nutzen.
+
+Der Fragebogen stellt Ihnen Fragen zu möglichen Symptomen, Vorerkrankungen, Arbeitsumfeld, Reisen in Risikogebieten und Kontakt zu Verdachtsfällen. Bitte beantworten Sie die Fragen so genau wie möglich.
+
+Starten Sie den Chatbot mit einem „Hallo“. Der Chatbot navigiert Sie dann durch unseren Fragenkatalog und gibt Ihnen am Ende Handlungsempfehlungen und Hinweise. Bitte beantworten Sie die Fragen des Chatbots so genau wie möglich.
+</li><br>
+
+<li>Handlungsempfehlungen
+
+Am Ende der Befragung erhalten Sie eine Übersicht Ihrer Antworten und spezifische Hilfestellungen und Handlungsempfehlungen, wie zum Beispiel:
+
+Rückrufservice und Videochats von und mit Fachpersonal
+Teststationen und medizinische Versorgung in Ihrer Nähe
+Allgemeine Hygienehinweise zu Corona
+</li><br>
+
+<li>Ärztlicher Rückrufservice und Videochat
+
+Falls ein Rückrufservice notwendig sein sollte, geben Sie bitte Ihre Telefonnummer an. Das zuständige medizinische Personal wird sich zeitnah bei Ihnen melden. Bitte halten Sie für das Gespräch Ihre Zusammenfassung der Antworten bereit.
+</li><br>
+<li>Datenschutz
+
+Der Fragebogen ist anonym. Ihre Antworten werden nur auf Ihrem Endgerät gespeichert und werden nicht an uns oder Dritte übergeben. Für den ärztlichen Rückrufservice sowie die Ausgabe von Teststationen und medizinische Versorgung in Ihrer Nähe ist die Angabe Ihrer Telefonnummer sowie Postleitzahl nötig.
+
+
+Bitte beachten Sie, dass die Benutzung unserer Anwendung keine ärztliche Behandlung ersetzt. Fühlen Sie sich aktuell schwer krank, suchen Sie bitte direkt medizinische Hilfe auf.
+</li><br>
+</ol>
 </div>
