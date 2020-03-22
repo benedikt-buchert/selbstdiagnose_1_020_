@@ -152,7 +152,7 @@ a {
   text-decoration:none;
 }
 
-.c-header a {
+.c-header a, .c-footer-menu a {
   color: var(--dark-font-color);
 }
 
