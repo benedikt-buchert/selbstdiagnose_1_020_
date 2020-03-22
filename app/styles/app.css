@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :root {
     --measure: 60ch;
@@ -10,7 +11,7 @@
     --spacing-margin-padding : 0.75rem;
     --space: 1.5rem;
     color: var(--dark-font-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     background-color: var(--light-grey);
 }
 
@@ -54,13 +55,19 @@
 }
 
 .c-button {
-    background-color: var(--theme-color);
-    color: var(--light-font-color);
+    background-color: none;
+    color: var(--theme-color);
     text-align: center;
-    border: none;
-    padding: 0.75rem;
+    border: 0.25rem solid var(--theme-color);
+    border-radius:3.0rem;
+    padding: 1.0rem 2.0rem;
     margin-right: var(--spacing-margin-padding);
     font-size: var(--font-size-big);
+}
+
+.c-button:focus, .c-button:hover {
+    background-color: var(--theme-color);
+    color: var(--light-font-color);
 }
 
 .c-footer-menu {
@@ -96,6 +103,10 @@
     border-color: #e2e8f0;
     border-width: 1px;
     border-radius: 0.25rem;
+}
+
+a {
+  text-decoration:none;
 }
 
 
