@@ -12,4 +12,5 @@ Router.map(function() {
   this.route('datenschutz');
   this.route('faq');
   this.route('impressum');
+  this.route('information');
 });
