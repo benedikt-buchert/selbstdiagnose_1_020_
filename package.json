@@ -50,6 +50,12 @@
     "loader.js": "^4.7.0",
     "qunit-dom": "^1.0.0"
   },
+  "resolutions": {
+    "@babel/core": "7.8.7",
+    "@babel/helpers": "7.8.4",
+    "@babel/plugin-transform-classes": "7.8.6",
+    "@babel/runtime": "7.8.7"
+  },
   "engines": {
     "node": "10.* || >= 12"
   },
