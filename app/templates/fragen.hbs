@@ -1,2 +1,8 @@
-<Frage @frage={{this.model.titel}}/>
+{{#each @model as |frage|}}
+  <div>
+    {{frage.question}}
+  </div>
+{{/each}}
+
+<Frage @frage={{this.model.question}}/>
 {{outlet}}
