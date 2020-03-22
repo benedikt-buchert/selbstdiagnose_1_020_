@@ -2,10 +2,11 @@
     <h1>{{@frage.question}}</h1>
     {{@frage.body}}
 </article>
-
+<div class ="buttons">
 {{#each @frage.options as |option|}}
+
 <LinkTo @route="fragen" @model={{option.target}} class="c-button" > {{option.text}} </LinkTo>
+
 {{/each}}
-
+</div>
 {{yield}}
-

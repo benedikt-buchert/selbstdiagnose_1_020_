@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
 
 :root {
     --measure: 60ch;
@@ -7,6 +7,10 @@
     --dark-font-color: #363636;
     --light-grey: #eeeeee;
     --font-size: 1rem;
+    --light: 300;
+    --medium: 500;
+    --regular: 400;
+    --bold: 500;
     --font-size-big: 1.25rem;
     --spacing-margin-padding : 0.75rem;
     --space: 1.5rem;
@@ -46,8 +50,27 @@
     padding: 2rem;
 }
 
-.c-h1 {
+.c-h1, h1 {
     text-align: center;
+    font-weight: var(--light);
+}
+
+h2 {
+  text-align: center;
+  font-weight: var(--light);
+}
+
+.welcome{
+  margin-bottom:5rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.c-question, p{
+  text-align:center;
+  font-weight: var(--light);
 }
 
 .c-question {
@@ -55,6 +78,7 @@
 }
 
 .c-button {
+    display:inline-block;
     background-color: none;
     color: var(--theme-color);
     text-align: center;
