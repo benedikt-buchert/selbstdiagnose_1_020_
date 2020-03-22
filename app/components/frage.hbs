@@ -6,18 +6,16 @@
 <div class ="buttons">
 
 {{#if (eq @frage.id 9)}}
-  <h3>Begründeter Verdacht</h3>
-  <img src="corona_ambulanz.png" width="600"/>
+  <img src="corona_ambulanz.png" width="100%"/>
 {{/if}}
 
   {{#if (eq @frage.id 10)}}
-    <h3>Fall unter differentialdiagnostischer Abklärung</h3>
-    <img src="teleclinic.png" width="300"/>
+    <img src="teleclinic.png" width="100%"/>
   {{/if}}
 
   {{#if (eq @frage.id 11)}}
     <h3>Unspezifische Symptome</h3>
-    <img src="links_allgemeine_infos.png" width="300"/>
+    <img src="links_allgemeine_infos.png" width="100%"/>
   {{/if}}
 
   {{#each @frage.options as |option|}}
@@ -27,6 +25,3 @@
   {{/each}}
 
 </div>
-
-
-
