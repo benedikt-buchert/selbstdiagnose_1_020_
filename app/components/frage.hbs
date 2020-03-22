@@ -1,5 +1,5 @@
-<h1>{{@frage.text}}</h1>
-<LinkTo @route="fragen" class="c-button" >Option 1</LinkTo>
+<h1>{{@frage.question}}</h1>
+<LinkTo @route="fragen" @model={{@frage}} class="c-button" >Option 1</LinkTo>
 <LinkTo @route="fragen" class="c-button" >Option 2</LinkTo>
 <LinkTo @route="fragen" class="c-button" >Option 3</LinkTo>
 {{yield}}
