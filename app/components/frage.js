@@ -6,4 +6,6 @@ export default Component.extend({
         return htmlSafe(this.frage.body);
     }
 
+
+
 });

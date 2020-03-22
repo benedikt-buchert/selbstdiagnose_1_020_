@@ -8,5 +8,22 @@
 <LinkTo @route="fragen" @model={{option.target}} class="c-button" > {{option.text}} </LinkTo>
 
 {{/each}}
+
+{{#if (eq @frage.id 9)}}
+  <h3>Begründeter Verdacht</h3>
+  <img src="corona_ambulanz.png" width="600"/>
+{{/if}}
+
+  {{#if (eq @frage.id 10)}}
+    <h3>Fall unter differentialdiagnostischer Abklärung</h3>
+    <img src="teleclinic.png" width="300"/>
+  {{/if}}
+
+  {{#if (eq @frage.id 11)}}
+    <h3>Unspezifische Symptome</h3>
+    <img src="links_allgemeine_infos.png" width="300"/>
+  {{/if}}
+
+
 </div>
 {{yield}}
