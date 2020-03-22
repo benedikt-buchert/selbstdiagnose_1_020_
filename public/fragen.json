@@ -94,6 +94,10 @@
       "body": "Bei Dir liegen unspezifische Symptome vor, die nicht direkt auf eine Corona-Infektion schließen lassen. Das Virus kann aber sehr unterschiedliche Ausprägungen annehmen, deshalb ist es wichtig Deine Symptome weiter mit einem Arzt ambulant abzuklären. Rufe unbedingt deinen Hausarzt an und mache einen Termin. Er wird Dir weiterhelfen. Falls Dein Hausarzt nicht erreichbar ist, gibt es einige schnelle Möglichkeiten zur Telemedizin. Sieh dir doch mal die folgenden Links an: TODO links von anderer Gruppe mit Telemedizin Vermeide Kontakt zu anderen Personen und begib dich vorsichtshalber in 14-tägige Selbstquarantäne",
       "progress": 1,
       "options": [
+        {
+          "target": 0,
+          "text": "von vorne beginnen"
+        }
       ]
     },
     {
@@ -102,6 +106,10 @@
       "body":" Ein begründeter Verdachtsfall liegt nicht vor. Dennoch kann eine Infektion nicht ausgeschlossen werden.",
       "progress": 1,
       "options": [
+        {
+          "target": 0,
+          "text": "von vorne beginnen"
+        }
       ]
     }
   ]
