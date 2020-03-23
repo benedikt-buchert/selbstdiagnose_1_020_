@@ -1,5 +1,4 @@
-{{ember-progress-bar setProgress=@frage.progress options=(hash color="#00d3db")}}
-{{ember-progress-bar setProgress=1 options=(hash color="#aaaaaa")}}
+<ProgressBar @progress={{@frage.progress}}/>
 <article class="c-question">
     <h1>{{@frage.question}}</h1>
     {{@frage.body}}
@@ -7,15 +6,15 @@
 <div class ="buttons">
 
 {{#if (eq @frage.id 9)}}
-  <img src="corona_ambulanz.png" width="100%"/>
+  <img src="corona_ambulanz.png" alt="" width="100%"/>
 {{/if}}
 
   {{#if (eq @frage.id 10)}}
-    <img src="teleclinic.png" width="100%"/>
+    <img src="teleclinic.png" alt="" width="100%"/>
   {{/if}}
 
   {{#if (eq @frage.id 11)}}
-    <img src="links_allgemeine_infos.png" width="100%"/>
+    <img src="links_allgemeine_infos.png" alt="" width="100%"/>
   {{/if}}
 
   {{#if (eq @frage.id 4)}}
