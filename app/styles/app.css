@@ -6,6 +6,7 @@
     --light-font-color: #ffffff;
     --dark-font-color: #363636;
     --light-grey: #eeeeee;
+    --bg-color: #f8f8f8;
     --font-size: 1rem;
     --light: 300;
     --medium: 500;
@@ -16,7 +17,7 @@
     --space: 1.5rem;
     color: var(--dark-font-color);
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    background-color: #f8f8f8;
+    background-color: var(--bg-color);
 }
 
 
@@ -192,4 +193,23 @@ img{
 
 .c-header img{
   padding:0;
+}
+
+.c-progress-bar {
+  width: 100%;
+  height: 0.3rem;
+  vertical-align: bottom;
+  border-radius: 0px;
+  background-color: var(--bg-color);
+  border: none;
+}
+progress::-webkit-progress-bar {
+  background-color: var(--bg-color);
+}
+progress::-webkit-progress-value {
+  background-color: var(--theme-color);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--theme-color);
 }
