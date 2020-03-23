@@ -134,28 +134,6 @@ main{
     display: inline;
 }
 
-.c-form-checkbox {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-    display: inline-block;
-    vertical-align: middle;
-    background-origin: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    flex-shrink: 0;
-    height: 2em;
-    width: 2em;
-    background-color: #fff;
-    border-color: #e2e8f0;
-    border-width: 1px;
-    border-radius: 0.25rem;
-}
-
 a {
   text-decoration:none;
 }
