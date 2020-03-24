@@ -1,4 +1,4 @@
-# covid
+# 1_020_selbstdiagnose
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -8,15 +8,15 @@ A short introduction of this app could easily go here.
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+* [Node.js](https://nodejs.org/) (with yarn)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/benedikt-buchert/selbstdiagnose_1_020_` this repository
 * `cd covid`
-* `npm install`
+* `yarn install`
 
 ## Running / Development
 
