@@ -7,7 +7,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.route('fragen', {path: ':id'});
+  this.route('step', {path: ':id'});
   this.route('chatbot');
   this.route('datenschutz');
   this.route('faq');

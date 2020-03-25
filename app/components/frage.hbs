@@ -6,6 +6,6 @@
 <div class ="buttons">
   {{this.additionalinfo}}
   {{#each @frage.options as |option|}}
-    <LinkTo @route="fragen" @model={{option.target}} class="c-button" > {{option.text}} </LinkTo>
+    <LinkTo @route="step" @model={{option.target}} class="c-button" > {{option.text}} </LinkTo>
   {{/each}}
 </div>
