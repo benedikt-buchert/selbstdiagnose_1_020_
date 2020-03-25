@@ -6,7 +6,6 @@ export default class FrageComponent extends Component {
     @tracked frage;
 
     get body() {
-        console.log(this)
         return htmlSafe(this.frage.body);
     }
 
