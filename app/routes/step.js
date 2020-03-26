@@ -1,12 +1,9 @@
 import Route from '@ember/routing/route';
 
-export default class FrageRoute extends Route {
-    model(params) {
-        let fragen = this.modelFor('application');
-        let id = params.id;
-        let frage = fragen.find(obj => {
-          return obj.id == id;
-        });
-        return frage;
-      }
+export default class StepRoute extends Route {
+  async model(params) {
+    const steps = await this.store.findAll('step');
+    let step = steps.findBy('id', params.id)
+    return step;
+    }
 }
