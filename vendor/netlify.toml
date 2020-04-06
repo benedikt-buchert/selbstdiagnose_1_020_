@@ -2,3 +2,8 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "confident-noether-1d9fbf.netlify.com/*"
+  to = "corona-wegweiser.buchert.digital/:splat"
+  status = 301
